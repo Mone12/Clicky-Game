@@ -1,3 +1,27 @@
+# Clicky-Game
+
+Demo can be seen here-  (https://youtu.be/4NjUA7jfwXA)
+
+### Description
+This app is a memory game used with REACT which allows the UI to be broken up
+in different components, managed through component states, and responsive to user events all in one.
+
+### How it works
+When react is ran using "npm start", the following page will load showing
+twelve clickable images and a score board in the navigation bar.
+
+![Screen Shot 2020-03-30 at 6 37 18 PM](https://user-images.githubusercontent.com/54917461/77979994-01a0fd00-72bb-11ea-8403-a56d271e220b.png)
+
+When user clicks on an image, the game will start and user's score will go up by one point. The goal is to not click the same image twice.
+If an image is clicked more than once, the users score will start back at zero and will be inform they clicked incorrectly.
+
+
+![Screen Shot 2020-03-30 at 6 37 46 PM](https://user-images.githubusercontent.com/54917461/77978578-4e82d480-72b7-11ea-88ae-0a6e85943feb.png)
+
+
+A full demo of the apps functionality can be shown in the link above.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
