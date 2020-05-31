@@ -22,8 +22,8 @@
     height: 400px;
     background-image: url(/images/sailormoon5.jpg);
     background-repeat: no-repeat;
-   background-size: cover;
-   background-position-y: -60px;
-   padding: 0%;
+    background-size: cover; 
+    background-position-y: -10px; 
+    padding: 0%;
     
 }
