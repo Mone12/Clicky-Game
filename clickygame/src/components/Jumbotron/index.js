@@ -1,12 +1,12 @@
 import React from "react";
 import "./index.css";
-import Logo from './logo/index.js'
+import logo from  "./SMlogo.png";
 
 function Header () {
     return (
         <div className = "jumbotron jumbotron-fluid">
             <div className="container">
-                <Logo />
+              <img src = {logo} />
             </div>
 
     </div>
