@@ -1,11 +1,10 @@
 import React from 'react';
 import './index.css';
 
-function Wrapper () {
-    <div className = "container-fluid">
-
-
-    </div>
+function Wrapper(props) {
+    
+   return <div className = 'wrapper'>{props.children}</div>
+    
 }
 
 export default Wrapper;
