@@ -5,7 +5,7 @@ import logo from  "./SMlogo.png";
 function Header (props) {
     return (
         <div className = "jumbotron jumbotron-fluid">
-            <div className="container">
+            <div className="container justify-content-center">
               <img src = {logo} alt = {props} />
 
               <h4 className = 'jumbo-text text-white'>Click on an image to earn point,
