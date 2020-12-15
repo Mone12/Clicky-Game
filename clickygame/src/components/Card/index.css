@@ -1,11 +1,11 @@
 .card {
-    background: #fff;
+    background:#ff9efc;
     border-radius: 5px;
     height: 190px;
-    /* margin: 1rem; */
+    margin: 1rem;
     position: relative;
-    /* width: 190px; */
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    width: 190px; 
+    box-shadow: 1px 1px 10px 8px rgba(250, 142, 236, 0.815);;
     margin: 1rem 50px;
     transition: transform .2s;
   }
@@ -19,9 +19,9 @@
     overflow: hidden;
     text-align: center;
     background: white;
-  } 
+  }  
 
   .card > .img-container > img {
-    width: 190px;
-    height: 200px;
+    width: 205px;
+    height: 190px;
   } 

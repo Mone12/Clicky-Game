@@ -90,9 +90,10 @@ render() {
   
   return (
     <div>
+      <span className = "text-center">
       <Nav style={this.state.style} current={this.state.currentScore} high={this.state.highScore} banner={this.state.banner} />
       <Jumbotron />
-        
+      </span>
       <Wrapper>
         {images}
       </Wrapper>
