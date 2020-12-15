@@ -2,11 +2,11 @@
     background:#ff9efc;
     border-radius: 5px;
     height: 190px;
-    margin: 1rem;
-    position: relative;
-    width: 190px; 
+  
+    /* position: relative; */
+    width: 180px; 
     box-shadow: 1px 1px 10px 8px rgba(250, 142, 236, 0.815);;
-    margin: 1rem 50px;
+     margin: 1rem 50px; 
     transition: transform .2s;
   }
 
@@ -22,6 +22,7 @@
   }  
 
   .card > .img-container > img {
-    width: 205px;
+    width: 237px;
     height: 190px;
+    position: auto;
   } 
