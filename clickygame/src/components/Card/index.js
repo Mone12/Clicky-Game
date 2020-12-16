@@ -3,12 +3,12 @@ import './index.css';
 
 function Card(props) {
   return (
-      <div className="card col-md-2 p-1">
-    <div className="img-container">
-      <img alt={props} src={props.image} id = {props.id} onClick={props.handleIncrement}/>
-
+    <div className="container col-md-3">
+    <div className="card">
+    <img alt={props.name} src={props.image} id = {props.id} onClick={props.handleIncrement}/>
+        
+     
     </div>
-    
   </div>
   )
 }

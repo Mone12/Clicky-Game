@@ -1,28 +1,26 @@
 .card {
-    background:#ff9efc;
-    border-radius: 5px;
+    background: rgb(231, 130, 218);
+    border-radius: 2px;
     height: 190px;
-  
-    /* position: relative; */
-    width: 180px; 
-    box-shadow: 1px 1px 10px 8px rgba(250, 142, 236, 0.815);;
-     margin: 1rem 50px; 
-    transition: transform .2s;
+    width: 210px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    box-shadow: 
+    0 0 8px 5px rgba(255, 255, 255, 0.795),  /* inner white */
+    0 0 8px 5px rgba(255, 0, 255, 0.651), /* middle magenta */
+    0 0 8px 9px rgba(0, 255, 255, 0.74); /* outer cyan */
+    overflow: hidden;
   }
 
   .card:hover {
     transform: scale(1.1); 
   }
   
-  .card > .img-container {
-    height: 100%;
-    overflow: hidden;
+ .card > img {
+    
     text-align: center;
-    background: white;
-  }  
-
-  .card > .img-container > img {
-    width: 237px;
-    height: 190px;
-    position: auto;
-  } 
+    background: #6caddc;
+    height: 100% !important;
+  }
