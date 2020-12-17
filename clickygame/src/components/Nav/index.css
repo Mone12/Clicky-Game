@@ -1,7 +1,27 @@
 .navbar {
     background-color: #3ea0c5 !important;
+    
+}
+
+.nav-logo {
+    height: 60px;
+    width: 150px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    color: #ff95f1;
+    
+    
 }
 
 li {
-    color: white;
+    font-family: 'Charm', cursive;
+    
+}
+
+.list-position {
+    margin-top: 17px;
 }
