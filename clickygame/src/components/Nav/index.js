@@ -11,8 +11,8 @@ const NavBar = (props) => {
                 <img className= "nav-logo" src = {img} alt = {props}/>
                  Clicky Game
             </li>
-             <li className = "nav-item col-md-4 list-position">Click any image to begin!</li>
-             <li className = "nav-item col-md-4 list-position">Score:{props.current} Top Score:{props.high}</li>
+             <li className = "nav-item col-md-4 nav-list">{props.banner}</li>
+             <li className = "nav-item col-md-4 nav-list">Score:{props.current} Top Score:{props.high}</li>
             </ul>
             </nav>
 

@@ -11,8 +11,10 @@
 .title {
     font-size: 40px;
     font-weight: bold;
+    letter-spacing: -5px;
+    -webkit-text-stroke: .002rem hsl(318, 100%, 69%);
     text-shadow: 2px 2px 4px #000000;
-    color: #ff95f1;
+    color: #efff95;
     
     
 }
@@ -22,6 +24,11 @@ li {
     
 }
 
-.list-position {
+.nav-list {
     margin-top: 17px;
+    font-weight: bold;
+    color: rgb(255, 240, 249);
+    text-shadow: 0px 0px 10px rgb(255, 96, 242),
+                 2px 2px 14px black;
+
 }
