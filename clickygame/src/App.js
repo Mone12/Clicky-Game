@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Nav from "./components/Nav";
-import Jumbotron from "./components/jumbotron";
+import Jumbotron from "./components/Jumbotron";
 import Wrapper from "./components/Wrapper";
 import Card from './components/Card';
 import Images from './images.json';
