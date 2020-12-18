@@ -15,13 +15,14 @@ To test your memory on which images were already clicked, the images will shuffl
 You score one point for every click which will be added on the score board in the nav bar. If you click the same image twice, you will lose and your score will go back down to zero with your new high score displayed.
 
 ## Demo 
+![Click Game Demo]()
 
 ## Built with:
-*React.js
-*node.js
-*JavaScript/Jquery
-*BootStrap/CSS
-*JSON
+* React.js
+* node.js
+* JavaScript/Jquery
+* BootStrap/CSS
+* JSON
 
 ## Credits
 <b>Created By:</b> Mone Duncans-Francis -[Mone12](https://github.com/Mone12)
