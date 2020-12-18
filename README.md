@@ -15,7 +15,7 @@ To test your memory on which images were already clicked, the images will shuffl
 You score one point for every click which will be added on the score board in the nav bar. If you click the same image twice, you will lose and your score will go back down to zero with your new high score displayed.
 
 ## Demo 
-![Click Game Demo]()
+![Click Game Demo](https://github.com/Mone12/Clicky-Game/blob/master/clickygame/public/assets/images/React%20App.gif)
 
 ## Built with:
 * React.js
