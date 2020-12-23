@@ -6,6 +6,7 @@
     margin-top: 30px;
 }
 
+/* Text styling in the jumbotron */
 .jumbo-text {
     font-family: 'Charm', cursive;
     font-size: 30px;
@@ -18,7 +19,7 @@
   animation: glow 1s ease-in-out infinite alternate;
 }
 
-
+/* webkit to make the text glow */
 @-webkit-keyframes glow {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 50px #e60073, 0 0 50px #e60073;
